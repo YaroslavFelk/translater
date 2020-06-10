@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Клиент и сервер</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="getUrl.js" defer></script>
+    <script src="createElem.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section class="container">
+        <form class="js-form">
+            <div class="block-select">
+                <select class="input-language js-input-language"></select>
+                <select class="output-language js-output-language"></select>
+
+                <input class="translate js-translate" type="submit" value="Перевести" >
+            </div>
+            <textarea name="input-text" class="input-text js-input-text" required ></textarea>
+        </form>
+        
+        <div class="output-text js-output-text"></div>
+    </section>
+</body>
+</html>
+
